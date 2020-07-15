@@ -2,7 +2,7 @@
 FROM python:stretch
 LABEL maintainer='Jeffrey'
 LABEL date='2020-7-4'
-LABEL description='Image to build the back-end service (Flask) of the Udacity FSND project'
+LABEL description='Image for FSND, flask application'
 
 # set working directory
 COPY . /app

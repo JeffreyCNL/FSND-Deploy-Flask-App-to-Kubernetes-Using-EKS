@@ -10,8 +10,6 @@ import jwt
 # pylint: disable=import-error
 from flask import Flask, jsonify, request, abort
 
-
-
 def _logger():
     '''
     Setup logger format, level, and handler.
